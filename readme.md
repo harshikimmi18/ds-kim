@@ -1,17 +1,64 @@
-Had my first(not first) python basics class today so learnt 
-what is python?
-had my first program.
-python character set.
-variables.
-memory.
-rules for identifiers.
-data types.
-keywords.
-printing sum of 2 numbers.
-comments in python.
-types of operators.
-type conversion.
-type casting.
-taking inputs from user.
-and some basic input taking method problemss.
-and also practiced some other basic codes.
+📘 Day 1 – Python Basics
+✅ Topics Covered:
+What is Python?
+
+Introduction to Python and its uses in data science, web development, automation, etc.
+
+First Python Program
+
+Wrote and executed: print("Hello, World!")
+
+Python Character Set
+
+Alphabets, digits, special symbols, whitespace characters used in Python
+
+Variables & Memory
+
+How variables are declared and how Python handles memory allocation
+
+Rules for Identifiers
+
+Valid naming conventions for variables and functions
+
+Data Types
+
+int, float, str, bool, complex, etc.
+
+Keywords
+
+Reserved words like if, else, while, def, True, False, etc.
+
+Operators
+
+Arithmetic (+, -, *, /, %, **, //)
+
+Assignment (=, +=, -=, etc.)
+
+Comparison, Logical, Bitwise, Identity, Membership
+
+Type Conversion & Type Casting
+
+int(), float(), str() for converting types
+
+Taking User Input
+
+Using input() and casting to appropriate types
+
+Basic Practice Problems
+
+Sum of two numbers
+
+Area of a circle
+
+Voting eligibility check
+
+Type checker using type() function
+
+🧠 Practice Focus:
+Understanding how Python handles variables and memory
+
+Writing simple logic using if-else
+
+Using input() and print() effectively
+
+Learning to debug syntax issues and indentation
