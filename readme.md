@@ -106,4 +106,37 @@ Practice notebook: Day2/practice_problems.ipynb
 IDE: VS Code + Python 3.x
 
 Reference: W3Schools – Python Strings
+## 📅 Day 3 - Python Practice Log
+
+### ✅ Topics Covered:
+- Lists
+  - Creation, Indexing, Slicing
+  - Common methods: `append()`, `insert()`, `remove()`, `pop()`, etc.
+- Tuples
+  - Conversion between tuple and list
+  - Accessing and updating values via conversion
+
+### 🧠 Practice Questions Solved:
+1. Add an element at the 2nd position in a list.
+2. Check if an item exists in a list and print confirmation.
+3. Convert a tuple to list → append new element → convert back to tuple.
+4. Merge two lists and sort them.
+5. Remove duplicates from a list without using `set()`.
+6. Find the largest and smallest numbers in a list without `max()` or `min()`.
+
+### 💡 Key Learnings:
+- Difference between mutable (list) and immutable (tuple) types.
+- How to manipulate tuple content via list conversion.
+- Handling list operations and implementing logic without built-in functions.
+
+### 🔁 Commands/Examples Used:
+```python
+# Add element at index 1
+my_list.insert(1, "new_value")
+
+# Convert tuple to list, modify, and back
+my_tuple = (10, 20)
+temp_list = list(my_tuple)
+temp_list.append(30)
+my_tuple = tuple(temp_list)
 
