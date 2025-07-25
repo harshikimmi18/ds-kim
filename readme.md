@@ -1,3 +1,100 @@
+# 💧 Rainwater Harvesting Advisor using ANN
+
+This project uses an **Artificial Neural Network (ANN)** model to predict optimal rainwater harvesting capacity and recommend harvesting methods based on environmental parameters.
+
+---
+
+## 📌 Project Overview
+
+This model serves as an advisor tool to optimize rainwater collection and storage based on:
+- Rainfall
+- Roof Area
+- Water Usage
+- Soil Type
+- Population Density
+
+The goal is to use machine learning (ANN) to recommend suitable harvesting plans for a region, assisting in sustainable water management.
+
+---
+
+## 🧠 Technologies Used
+
+- Python 🐍
+- Google Colab
+- NumPy
+- Pandas
+- Scikit-learn
+- Keras (TensorFlow backend)
+- Matplotlib (for visualization)
+
+---
+
+## 📂 Dataset
+
+A **synthetic dataset** was created with realistic environmental conditions and expected harvesting outcomes.  
+Key features:
+- `rainfall_mm`  
+- `roof_area_m2`  
+- `daily_usage_liters`  
+- `soil_type` *(numerically encoded)*  
+- `population_density`
+
+Target variable:
+- `advised_storage_capacity_liters`
+
+---
+
+## 🏗️ Model Architecture
+
+- **Input Layer**: 5 neurons (one for each input parameter)
+- **Hidden Layers**: 2 Dense layers with ReLU activation
+- **Output Layer**: 1 neuron (regression output)
+- **Loss Function**: Mean Squared Error (MSE)
+- **Optimizer**: Adam
+
+---
+
+## ⚙️ How to Run
+
+1. Clone this repository or open in Google Colab
+2. Install dependencies (if running locally)
+3. Run the notebook: `rainwater_harvesting_ann.ipynb`
+4. Train the model on the synthetic dataset
+5. Evaluate performance using test data
+6. Save or load the model using `.h5` files
+
+---
+
+## 📊 Results
+
+- Achieved low Mean Absolute Error (MAE) on test data.
+- Model generalized well on unseen examples.
+- Visualizations show close correlation between predicted and actual capacities.
+
+---
+
+## ✅ Future Improvements
+
+- Replace synthetic dataset with real-world rainfall + demographic data
+- Convert into a web dashboard using Streamlit
+- Include fuzzy logic or reinforcement learning for adaptive suggestions
+
+---
+
+## 🧠 Author
+
+Harshitha  
+Data Science Enthusiast | UI Developer  
+*Intern at Convey Tech Labs & Internz Learn*
+
+---
+
+## 📄 License
+
+This project is open source and free to use under the MIT License.
+
+
+
 📘 Day 1 – Python Basics
 ✅ Topics Covered:
 What is Python?
