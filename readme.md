@@ -62,3 +62,48 @@ Writing simple logic using if-else
 Using input() and print() effectively
 
 Learning to debug syntax issues and indentation
+
+
+
+
+📅 Day 2: Python Practice – Strings & Conditional Statements
+✅ Topics Covered:
+Python Strings
+
+Indexing and Slicing
+
+String Built-in Functions (len(), .lower(), .upper(), .find(), etc.)
+
+Conditional Statements (if, else, elif)
+
+📘 Concepts Learned:
+Accessing characters using positive & negative indexing
+
+Extracting substrings using slicing with different steps (string[start:end:step])
+
+Using string functions for formatting and analysis
+
+Writing conditional logic based on input/conditions
+
+💻 Practice Problems:
+Reverse a string using slicing
+
+Count vowels in a string
+
+Check if a string is a palindrome
+
+Password validator (length, special char, upper/lower)
+
+Anagram checker
+
+Remove duplicates from a string
+
+Custom string slicer with index validation
+
+📎 Resources Used:
+Practice notebook: Day2/practice_problems.ipynb
+
+IDE: VS Code + Python 3.x
+
+Reference: W3Schools – Python Strings
+
