@@ -237,3 +237,33 @@ temp_list = list(my_tuple)
 temp_list.append(30)
 my_tuple = tuple(temp_list)
 
+
+
+
+# 🗓️ Day 4: Sets & Dictionaries in Python
+
+## ✅ Topics Covered:
+- Python `set()` operations:
+  - Adding and updating elements
+  - Set union, intersection, difference
+  - Checking subset/superset
+- Python `dict()` operations:
+  - Creating, updating key-value pairs
+  - Looping through keys, values, and items
+  - Dictionary methods like `.get()`, `.items()`, `.values()`, `.keys()`
+  - Finding max value and key with `max()` and `key=dict.get`
+
+## 🧠 Concepts Practiced:
+1. Using `.add()` and `.update()` in sets
+2. Subset checking using `issubset()` instead of `in`
+3. Looping through a dictionary with `.items()`
+4. Checking if a key exists in a dictionary
+5. Adding new key-value pairs conditionally
+6. Using `max()` to find the highest value in a dictionary
+7. Printing key with the highest value using `key=dict.get`
+
+## 📂 Tasks Completed:
+- ✅ Solved 10 practice problems on sets and dictionaries
+- ✅ Debugged and fixed logical and syntax errors
+- ✅ Understood how to extract values and keys in smart ways
+
